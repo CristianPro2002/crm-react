@@ -1,0 +1,23 @@
+INSTALAR TAILWIND CSS
+
+    npm install -D tailwindcss postcss autoprefixer
+
+INICIAR TAILWIND CSS
+
+    npx tailwindcss init
+
+INSTALAR REACT-ROUTER-DOM
+
+    npm install react-router-dom
+
+INSTALAR JSON-SERVER
+
+    npm install -g json-server
+
+INICIALIZAR JSON-SERVER
+
+    json-server --watch db.json --port 3004
+
+LLAMAR ENVIRONMENTS EN VITE 
+
+    import.meta.env.VITE_API_URL
